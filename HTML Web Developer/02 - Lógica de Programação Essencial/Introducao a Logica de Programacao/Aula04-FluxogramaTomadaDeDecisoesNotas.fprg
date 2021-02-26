@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="sjdve"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-02-25 02:00:43 "/>
+        <attribute name="created" value="c2pkdmU7REVTS1RPUC04Uk1KMkhTOzIwMjEtMDItMjU7IjAxOjU0OjM1ICI7MjgwNA=="/>
+        <attribute name="edited" value="c2pkdmU7REVTS1RPUC04Uk1KMkhTOzIwMjEtMDItMjU7IjAyOjAwOjQzICI7MzsyOTA1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1, nota2, nota3, nota4, media" type="Real" array="False" size=""/>
+            <input variable="nota1"/>
+            <input variable="nota2"/>
+            <input variable="nota3"/>
+            <input variable="nota4"/>
+            <assign variable="media" expression="(nota1+nota2+nota3+nota4)/4"/>
+            <output expression="media" newline="True"/>
+            <if expression="media &gt;= 7">
+                <then>
+                    <output expression="&quot;Parab&#233;ns! Voc&#234; foi aprovado!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Infelizmente, voc&#234; n&#227;o foi aprovado.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
