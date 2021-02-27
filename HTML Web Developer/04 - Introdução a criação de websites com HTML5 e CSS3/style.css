@@ -33,6 +33,7 @@ a {
     font-style: italic;
     margin: 0;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 .post {
@@ -49,9 +50,14 @@ a {
     text-transform: capitalize;
 }
 
+.posts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .post_image {
-    margin-bottom: 15px;
-    text-align: center;    
+    margin-bottom: 15px;        
 }
 
 .contacts_list {
